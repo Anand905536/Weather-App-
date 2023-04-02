@@ -1,0 +1,40 @@
+.userdetail-container {
+    height: 60px; /* set a fixed height */
+    display: flex;
+   margin-left: 70%;
+   justify-content: space-evenly;
+    /* background-color: red; */
+  }
+  
+  .userdetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    width:300px;
+    justify-content: space-evenly;
+  }
+
+.image{
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+    background-color: white;
+}
+.button{
+    margin:0px;
+    margin-left: 75%;
+    width:130px;
+    background-color:black;
+    color:white;
+}
+.button:hover{
+    opacity: .9;
+}
+
+@media screen and (max-width: 400px) {
+  .userdetail-container {
+   margin-left: 0%;
+  }
+}
+

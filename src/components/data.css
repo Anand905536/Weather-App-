@@ -1,0 +1,142 @@
+.input {
+    text-decoration: none;
+    border-radius: 4px;
+    width: 300px;
+    height: 40px;
+    background-color: lightgray;
+    border: black;
+    outline:none;
+    margin-top: 4%;;
+    margin-left: 37%;;
+  }
+  .button {
+    height:42px;
+
+  }
+  .loader{
+    width:30px;
+    height:30px;
+    margin-top: 30px;;
+    /* background-color:red; */
+    margin-left: 48%;
+  }
+  .card{
+   width:100%;
+   height:100%;
+   color:white;
+  /* background-color: red; */
+  }
+  .card2{
+    color:white;
+    /* background-color: red; */
+  }
+  .inside_card2_h1{
+    margin-left: 30%;;
+    margin-top: 0px;;
+    /* background-color: green; */
+  }
+  .img{
+    width:400px;
+    height:200px;
+    margin-left: 370px;
+    margin-top: 10px;
+    border-radius:4px; ;
+  }
+  .inside_card_1{
+  display:flex;
+  
+  justify-content: space-evenly;
+  }
+  .inside_card_2{
+    margin-top:50px;
+    display:flex;
+    justify-content: space-evenly;
+  }
+  .card section{
+    width:180px;
+    height:120px;
+    /* background-color: orange;; */
+  }
+  .inside_section_1{
+    /* background-color: yellow;; */
+    width:50%;
+    padding: 20px 0;
+  }
+  .inside_section_2{
+    /* background-color: purple; */
+    width:50%;
+    text-align: center;
+    padding: 45px 0;
+  }
+  .section p{
+    font-size: smaller;
+  }
+  .sunrise{
+   color:#ffff;
+  }
+  .weatherlogo{
+    margin-top:1%;;
+    margin-left: 41%;;
+    /* background-color: red; */
+  }
+
+  @media only screen and (min-width: 300px) and (max-width: 500px) 
+ 
+  {
+    .input{
+      margin-left:9%;
+    }
+    .button{
+      margin-top:30px;;
+      margin-left: 90%;
+      /* background-color: red; */
+    }
+    .inside_card_1{
+      flex-direction: column;
+      }
+      .inside_card_2{
+        flex-direction: column;
+      }
+     .section{
+      margin-left: 30%;
+     }
+     .inside_card2_h1{
+      margin-left: 10%;
+      /* color: grey; */
+     }
+     .weatherlogo{
+      margin-left: 18%;
+     }
+
+  }
+  
+  @media only screen and (min-width: 500px) and (max-width: 800px) {
+    .input{
+      margin-left:25%;
+    }
+    .button{
+      margin-top:30px;;
+      margin-left: 90%;
+     
+    }
+    .inside_card_1{
+      flex-direction: column;
+      }
+      .inside_card_2{
+        flex-direction: column;
+      }
+     .section{
+      margin-left: 30%;
+     }
+     .inside_card2_h1{
+      margin-left: 16%;
+      
+     }
+     .weatherlogo{
+      margin-left: 35%;
+     }
+
+  }
+  
+ 
+   
